@@ -27,218 +27,218 @@ while opcao != 0:
         
         if mov in esq:
 
-            print('\033[31mVocê morreu afogado!!!\033[m')
+            print('\033[31m\nVocê morreu afogado!!!\033[m')
 
         elif mov in frente:
 
-            mov = input('Você está no plano 5: Qual seu movimento? ').lower().strip()
+            mov = input('\nVocê está no plano 5: Qual seu movimento? ').lower().strip()
             verificaErro(mov)
 
             if mov in esq:
-                print('\033[31mVocê morreu afogado!!!\033[m')
+                print('\033[31m\nVocê morreu afogado!!!\033[m')
 
             elif mov in frente:
 
-                mov = input('Você está no plano 7: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 7: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
                 elif mov in frente or mov in dir:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in dir:
-                print('\033[31mVocê caiu no abismo!!!\033[m')
+                print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
         elif mov in dir:
 
-            mov = input('Você chegou ao plano 6: Qual seu movimento? ').lower().strip()
+            mov = input('\nVocê chegou ao plano 6: Qual seu movimento? ').lower().strip()
             verificaErro(mov)
 
             if mov in esq:
 
-                mov = input('Você está no plano 7: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 7: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
                 elif mov in frente or mov in dir:
-                    print('Você caiu no abismo!!!')
+                    print('\nVocê caiu no abismo!!!')
 
             elif mov in frente:
-                print('\033[31mVocê caiu no abismo!!!\033[m')
+                print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in dir:
 
-                mov = input('Você está no plano 8: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 8: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
                 
                 if mov in esq:
 
-                    mov = input('Você está no plano 9: Qual seu movimento? ').lower().strip()
+                    mov = input('\nVocê está no plano 9: Qual seu movimento? ').lower().strip()
                     verificaErro(mov)
 
                     if mov in esq:
-                        print('\033[31mVocê caiu no abismo!!!\033[m')
+                        print('\033[31m\nVocê caiu no abismo!!!\033[m')
                     elif mov in frente:
-                        print('\033[34mSOBREVIVI A PROVA!!!!\033[m')
+                        print('\033[34m\nPARABÉNS, VOCÊ SOBREVIVEU A PROVA!!!!\033[m')
                     elif mov in dir:
-                        print('\033[31mVocê caiu no abismo!!!\033[m')
+                        print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
                 elif mov in frente:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
                 elif mov in dir:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
     
     elif mov in frente:
 
-        mov = input('Você chegou ao plano 3: Qual seu movimeno? ').lower().strip()
+        mov = input('\nVocê chegou ao plano 3: Qual seu movimeno? ').lower().strip()
         verificaErro(mov)
 
         if mov in esq:
 
-            mov = input('Você está no plano 5: Qual seu movimento? ').lower().strip()
+            mov = input('\nVocê está no plano 5: Qual seu movimento? ').lower().strip()
             verificaErro(mov)
             
             if mov in esq:
-                print('\033[31mVocê morreu afogado!!!\033[m')
+                print('\033[31m\nVocê morreu afogado!!!\033[m')
 
             elif mov in frente:
 
-                mov = input('Você está no plano 7: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 7: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
                 elif mov in frente or mov in dir:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in dir:
-                print('\033[31mVocê caiu no abismo!!!\033[m')
+                print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
         elif mov in frente:
 
-            mov = input('Você está no plano 6: Qual seu movimento? ').lower().strip()
+            mov = input('\nVocê está no plano 6: Qual seu movimento? ').lower().strip()
             verificaErro(mov)
 
             if mov in esq:
 
-                mov = input('Você está no plano 7: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 7: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
                 elif mov in frente or mov in dir:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in frente:
-                print('\033[31mVocê caiu no abismo!!!\033[m')
+                print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in dir:
 
-                mov = input('Você está no plano 8: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 8: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
                     
-                    mov = input('Você está no plano 9: Qual seu movimento? ').lower().strip()
+                    mov = input('\nVocê está no plano 9: Qual seu movimento? ').lower().strip()
                     verificaErro(mov)
 
                     if mov in esq:
-                        print('\033[31mVocê caiu no abismo!!!\033[m')
+                        print('\033[31m\nVocê caiu no abismo!!!\033[m')
                     elif mov in frente:
-                        print('\033[34mSOBREVIVI A PROVA!!!!\033[m')
+                        print('\033[34m\nPARABÉNS, VOCÊ SOBREVIVEU A PROVA!!!!\033[m')
                     elif mov in dir:
-                        print('\033[31mVocê caiu no abismo!!!\033[m')
+                        print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
                 elif mov in frente:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
                 elif mov in dir:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
 
         elif mov in dir:
 
-            mov = input('Você está no plano 7: Qual seu movimento? ').lower().strip()
+            mov = input('\nVocê está no plano 7: Qual seu movimento? ').lower().strip()
             verificaErro(mov)
 
             if mov in esq:
-                print('\033[31mVocê morreu afogado!!!\033[m')
+                print('\033[31m\nVocê morreu afogado!!!\033[m')
             elif mov in frente or mov in dir:
-                print('\033[31mVocê caiu no abismo!!!\033[m')
+                print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
         elif mov in dir:
-            print('\033[31mVocê caiu no abismo!!!\033[m')
+            print('\033[31m\nVocê caiu no abismo!!!\033[m')
     
     elif mov in dir:
 
-        mov = input('Você está no plano 4: Qual seu movimento? ').lower().strip()
+        mov = input('\nVocê está no plano 4: Qual seu movimento? ').lower().strip()
         verificaErro(mov)
 
         if mov in esq:
 
-            mov = input('Você está no plano 6: Qual seu movimento? ').lower().strip()
+            mov = input('\nVocê está no plano 6: Qual seu movimento? ').lower().strip()
             verificaErro(mov)
 
             if mov in esq:
 
-                mov = input('Você está no plano 7: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 7: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
                 
                 if mov in esq:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
                 elif mov in frente or mov in dir:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in frente:
-                print('\033[31mVocê caiu no abismo!!!\033[m')
+                print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
             elif mov in dir:
 
-                mov = input('Você está no plano 8: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 8: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
 
-                    mov = input('Você está no plano 9: Qual seu movimento? ').lower().strip()
+                    mov = input('\nVocê está no plano 9: Qual seu movimento? ').lower().strip()
                     verificaErro(mov)
 
                     if mov in esq:
-                        print('\033[31mVocê caiu no abismo!!!\033[m')
+                        print('\033[31m\nVocê caiu no abismo!!!\033[m')
                     elif mov in frente:
-                        print('\033[34mSOBREVIVI A PROVA!!!!\033[m')
+                        print('\033[34m\nPARABÉNS, VOCÊ SOBREVIVEU A PROVA!!!!\033[m')
                     elif mov in dir:
-                        print('\033[31mVocê caiu no abismo!!!\033[m')
+                        print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
                 elif mov in frente:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
                 elif mov in dir:
-                    print('\033[31mVocê morreu afogado!!!\033[m')
+                    print('\033[31m\nVocê morreu afogado!!!\033[m')
         
         elif mov in frente:
-            print('\033[31mVocê caiu no abismo!!!\033[m')
+            print('\033[31m\nVocê caiu no abismo!!!\033[m')
         
         elif mov in dir:
 
-            ponte=input('Você chegou na ponte: Qual seu movimento? ')
+            ponte=input('\nVocê chegou na ponte: Qual seu movimento? ')
 
             if ponte in frente or ponte in dir:
-                print('\033[31mVocê morreu afogado!!!\033[m')
+                print('\033[31m\nVocê morreu afogado!!!\033[m')
 
             elif ponte in esq:
 
-                mov = input('Você está no plano 9: Qual seu movimento? ').lower().strip()
+                mov = input('\nVocê está no plano 9: Qual seu movimento? ').lower().strip()
                 verificaErro(mov)
 
                 if mov in esq:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
                 elif mov in frente:
-                    print('\033[34mSOBREVIVI A PROVA!!!!\033[m')
+                    print('\033[34m\nPARABÉNS, VOCÊ SOBREVIVEU A PROVA!!!!\033[m')
                 elif mov in dir:
-                    print('\033[31mVocê caiu no abismo!!!\033[m')
+                    print('\033[31m\nVocê caiu no abismo!!!\033[m')
 
-    opcao = int(input('Deseja jogar novamente? Informe qualquer número para continuar e 0 para sair '))
+    opcao = int(input('\nDeseja jogar novamente? Informe qualquer número para continuar e 0 para sair '))
 
-print("\033[34mObrigado por jogar!\033[m")
+print("\033[34m\nObrigado por jogar!\033[m")
